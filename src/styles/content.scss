@@ -25,9 +25,7 @@ main {
   margin-top: 5.625rem;
 
   .movies-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4.75rem;
-    list-style: none;
+    display: flex;
+    align-items: flex-start;
   }
 }
